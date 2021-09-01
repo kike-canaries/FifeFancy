@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "MCU_RaspberryPi_and_Boards")(type "Legacy")(uri "${KIPRJMOD}/MCU_RaspberryPi_and_Boards.lib")(options "")(descr ""))
+  (lib (name "SCD4x")(type "KiCad")(uri "${KIPRJMOD}/SCD4x.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4155-03-C_REVA")(type "Legacy")(uri "${KIPRJMOD}/libs/USB4155-03-C_REVA.lib")(options "")(descr ""))
+)
