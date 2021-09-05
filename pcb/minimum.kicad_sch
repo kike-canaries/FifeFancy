@@ -1897,7 +1897,7 @@
   (symbol (lib_id "power:VBUS") (at 273.05 175.895 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid fbe7173c-3624-4a8e-9ddc-41f9ad3603b0)
-    (property "Reference" "#PWR?" (id 0) (at 273.05 179.705 0)
+    (property "Reference" "#PWR0127" (id 0) (at 273.05 179.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (id 1) (at 273.05 172.2904 0))
@@ -1924,6 +1924,22 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7fca48ba-083d-4abb-8db4-4df1d36a8494))
+  )
+
+  (symbol (lib_id "power:VBUS") (at 295.91 46.355 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 3e1adbd0-e23c-433f-bc25-4fa06fc8e9a6)
+    (property "Reference" "#PWR?" (id 0) (at 295.91 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VBUS" (id 1) (at 295.91 42.7504 0))
+    (property "Footprint" "" (id 2) (at 295.91 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 295.91 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 308de982-4072-4c54-b291-ef61586b8142))
   )
 
   (symbol (lib_id "power:+3V3") (at 298.958 189.23 0) (unit 1)
@@ -2218,6 +2234,22 @@
     (pin "1" (uuid dcb41240-6b12-43fe-91b6-76f4e3fb2d6c))
   )
 
+  (symbol (lib_id "power:GND") (at 295.91 51.435 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 07335941-1864-4a66-b2dd-cc5d4e9a1d22)
+    (property "Reference" "#PWR?" (id 0) (at 295.91 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 295.91 55.9976 0))
+    (property "Footprint" "" (id 2) (at 295.91 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 295.91 51.435 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1f71485b-fc66-44d4-b20e-0107b65256d9))
+  )
+
   (symbol (lib_id "power:GND") (at 298.958 194.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 74f8f785-14d1-4e02-bff6-9c63824bfabd)
@@ -2252,8 +2284,8 @@
   (symbol (lib_id "Device:R_Small") (at 134.62 93.345 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5dd72c2f-8a1e-44f7-9a4a-190014f14862)
-    (property "Reference" "R5" (id 0) (at 134.62 95.5082 90))
-    (property "Value" "1k" (id 1) (at 137.16 95.9081 90))
+    (property "Reference" "R5" (id 0) (at 132.461 95.1272 90))
+    (property "Value" "1k" (id 1) (at 135.763 95.1461 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 134.62 93.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2991,6 +3023,9 @@
     (path "/dedbfcf4-5c1f-4d43-be02-b01c8b645196"
       (reference "#PWR0126") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/fbe7173c-3624-4a8e-9ddc-41f9ad3603b0"
+      (reference "#PWR0127") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/6f6d4540-ef37-47a0-98e2-40a1cdda8c1c"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
@@ -3006,7 +3041,10 @@
     (path "/a55ea6c4-2e87-4cc8-ba84-8ef126feace6"
       (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
     )
-    (path "/fbe7173c-3624-4a8e-9ddc-41f9ad3603b0"
+    (path "/07335941-1864-4a66-b2dd-cc5d4e9a1d22"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3e1adbd0-e23c-433f-bc25-4fa06fc8e9a6"
       (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
     )
     (path "/e7effd1f-dcf0-44f9-acf3-2bc5919ae9df"
