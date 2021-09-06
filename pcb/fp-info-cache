@@ -1,4 +1,4 @@
-10300369815422919
+10302000704483067
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -43532,6 +43532,13 @@ TL3340AF160QG
 0
 5
 3
+SMD
+USB_C_Plug_UTC009-C12
+
+
+0
+22
+13
 SMD
 W25Q16JVUXIQ
 

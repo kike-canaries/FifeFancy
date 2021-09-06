@@ -3520,7 +3520,7 @@
     (uuid 055c229d-49d0-4802-a7e2-2793179f3436)
     (property "Reference" "J1" (id 0) (at 258.445 29.7392 0))
     (property "Value" "DX07P024MJ1R1500" (id 1) (at 258.445 32.5143 0))
-    (property "Footprint" "SMD:JAE_DX07P024MJ1R1500" (id 2) (at 258.445 51.435 0)
+    (property "Footprint" "SMD:USB_C_Plug_UTC009-C12" (id 2) (at 258.445 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 258.445 51.435 0)
@@ -3834,7 +3834,7 @@
       (reference "D1") (unit 1) (value "LED_BARG") (footprint "SMD:RGB_LED_3x1")
     )
     (path "/055c229d-49d0-4802-a7e2-2793179f3436"
-      (reference "J1") (unit 1) (value "DX07P024MJ1R1500") (footprint "SMD:JAE_DX07P024MJ1R1500")
+      (reference "J1") (unit 1) (value "DX07P024MJ1R1500") (footprint "SMD:USB_C_Plug_UTC009-C12")
     )
     (path "/6560932e-72e1-448b-b0e8-fca0e2461287"
       (reference "R1") (unit 1) (value "27.4") (footprint "Resistor_SMD:R_0402_1005Metric")
