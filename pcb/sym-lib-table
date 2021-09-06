@@ -5,4 +5,5 @@
   (lib (name "W25Q128")(type "KiCad")(uri "${KIPRJMOD}/libs/W25Q128.kicad_sym")(options "")(descr ""))
   (lib (name "torex")(type "KiCad")(uri "${KIPRJMOD}/libs/torex.kicad_sym")(options "")(descr ""))
   (lib (name "DX07P024MJ1R1500")(type "KiCad")(uri "${KIPRJMOD}/libs/DX07P024MJ1R1500.kicad_sym")(options "")(descr ""))
+  (lib (name "CanAir_IO")(type "KiCad")(uri "${KIPRJMOD}/libs/CanAir_IO.kicad_sym")(options "")(descr ""))
 )
